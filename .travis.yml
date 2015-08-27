@@ -1,0 +1,6 @@
+language: java
+sudo: false
+
+install: echo "No install."
+
+script: mvn license:check compile
